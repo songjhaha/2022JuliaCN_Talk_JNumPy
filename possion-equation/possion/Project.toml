@@ -1,0 +1,6 @@
+name = "possion"
+
+[deps]
+IterativeSolvers = "42fd0dbc-a981-5370-80f2-aaf504508153"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+TyPython = "9c4566a2-237d-4c69-9a5e-9d27b7d0881b"

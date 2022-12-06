@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "jnp-spmatrix"
+version = "0.1.0"
+description = "support conversion of sparse matrix in jnumpy"
+authors = ["songjhaha <songjh96@foxmail.com>"]
+license = "MIT"
+packages = [{include = "jnp_spmatrix"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+julia-numpy = "^0.4.5"
+scipy = "^1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
